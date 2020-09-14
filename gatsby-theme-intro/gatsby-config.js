@@ -1,22 +1,22 @@
-module.exports = ({
-  basePath = "/",
-  contentPath = "content/",
-  showThemeLogo = true,
-  theme = "dark-blue",
-}) => {
-  return {
+// module.exports = ({
+//   basePath = "/",
+//   contentPath = "content/",
+//   showThemeLogo = true,
+//   theme = "dark-blue",
+// }) => {
+  module.exports={
     siteMetadata: {
-      description: "Personal page of John Doe",
+      description: "Portfolio Site for Chris Tran",
       locale: "en",
-      showThemeLogo,
-      title: "John Doe",
+      showThemeLogo : true,
+      title: "Chris Tran | Software Engineer",
     },
     plugins: [
       {
         resolve: `gatsby-plugin-postcss`,
         options: {
           postCssPlugins: [
-            require("tailwindcss")(require("./tailwind.config")(theme)),
+            require("tailwindcss")(require("./tailwind.config")("dark-blue")),
             require("postcss-input-range"),
             require("autoprefixer"),
           ],
@@ -27,7 +27,7 @@ module.exports = ({
       {
         resolve: `gatsby-source-filesystem`,
         options: {
-          path: contentPath,
+          path: "content/",
         },
       },
       {
@@ -37,4 +37,4 @@ module.exports = ({
       `gatsby-plugin-sharp`,
     ],
   }
-}
+// }

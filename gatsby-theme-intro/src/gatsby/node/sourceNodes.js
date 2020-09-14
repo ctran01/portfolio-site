@@ -17,6 +17,7 @@ module.exports = ({ actions }) => {
       status: String
       tags: [String]
       url: String
+      url2: String
     }
   `)
 }

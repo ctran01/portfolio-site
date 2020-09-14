@@ -11,6 +11,7 @@ export const ProjectType = {
   status: string,
   tags: arrayOf(string),
   url: string,
+  url2: string
 }
 
 export const query = graphql`
@@ -27,6 +28,7 @@ export const query = graphql`
     name
     status
     tags
-    url
+    url,
+    url2
   }
 `

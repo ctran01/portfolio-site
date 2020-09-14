@@ -1,27 +1,27 @@
 - profile:
-  initials: JD
-  name: John Doe
-  email: john.doe@change.me
-  profession: Web Developer
-  image: images/profile.jpg
-  location: New York, USA
+  initials: CT
+  name: Chris Tran
+  email: chrismtran01@gmail.company
+  profession: Full Stack Software Engineer
+  image: images/profile21.jpeg
+  location: Houston, TX
   relocation: true
-  company: Atomic Studio
+  company: None
   for_hire: true
-  focus: Learning Gatsby
-  focus_url: https://gatsbyjs.org
+  focus: Learning Python
+  focus_url: https://www.python.org/
   about: |
-    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
+    My name is Chris Tran. I am a software engineer based in Houston, Texas. I also have a background in Information Technology with a Bachelor's degree in Computer Information Systems.
 
-    User generated content in real-time will have multiple touchpoints for offshoring. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+    I am always ready to learn new technologies and frameworks that are steadily coming out in the future. When I'm not coding, I love to go bouldering or rock climbing.
+
+    Some of the technologies I have worked with include JavaScript, React, React Native, NodeJS, Express, Python, PostgreSQL, Flask, SQLAlchemy, and HTML/CSS.
   skills:
     - JavaScript
     - HTML / CSS
-    - Ruby on Rails
-  tools:
     - React
+  tools:
     - VSCode
-    - Gatsby
   budget:
     currency: $
     min: 5

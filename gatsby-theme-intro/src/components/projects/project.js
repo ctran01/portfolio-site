@@ -6,11 +6,11 @@ import ProjectStatus from "./project-status"
 import ProjectTags from "./project-tags"
 
 const Project = props => {
-  const { name, image, url, description, status, tags, icon } = props
+  const { name, image, url, url2, description, status, tags, icon } = props
   return (
     <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
       {image && (
-        <div className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0">
+        <div className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0" style={{width:350}}>
           <Img fluid={image.childImageSharp.fluid} alt={name} />
         </div>
       )}
@@ -23,7 +23,18 @@ const Project = props => {
             rel="noreferrer noopener"
             target="_blank"
           >
-            {url}
+            github
+          </a>
+        )}
+        <span>&nbsp;&nbsp;</span>
+        {url2 && (
+          <a
+            className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
+            href={url2}
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+             live
           </a>
         )}
         <p className="w-full py-4 whitespace-pre-line">{description}</p>
