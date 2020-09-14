@@ -9,7 +9,6 @@
     - SequelizeORM
     - Express
   icon: website
-  image: images/AscentImage.jpg
 
 - name: Spoofify
   url: https://github.com/ctran01/spotify-clone
