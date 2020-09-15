@@ -8,7 +8,7 @@
     siteMetadata: {
       description: "Portfolio Site for Chris Tran",
       locale: "en",
-      showThemeLogo : true,
+      showThemeLogo : false,
       title: "Chris Tran | Software Engineer",
     },
     plugins: [
