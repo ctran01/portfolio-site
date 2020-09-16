@@ -13,17 +13,30 @@ const Sidebar = ({ profile, social }) => (
         </h2>
         <h1 className="font-header font-black text-front text-5xl leading-none break-words mb-6">
           {profile.name}
+          
         </h1>
+        
         {profile.image && (
           <ProfileImage image={profile.image} name={profile.name} />
         )}
+        
         <br />
         {profile.location && (
           <Location
             location={profile.location}
             relocation={profile.relocation}
           />
+          
         )}
+        <br />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex w-14 h-14 font-header font-semibold px-2 bg-lead  text-lead-text justify-center items-center leading-tight lg:w-40 lg:h-auto lg:px-6 lg:py-2 lg:self-start lg:mt-4 hover:opacity-75 transition-opacity duration-150"
+          href={profile.email ? `mailto:${[profile.email]}` : 'https://github.com/ctran01'}
+        >
+          Email me
+        </a>
       </div>
 
       <div className="pt-8 pb-12 lg:py-0">
