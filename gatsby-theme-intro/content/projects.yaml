@@ -1,37 +1,41 @@
-- name: Ascent
-  url: https://github.com/ctran01/Ascent
-  url2: https://appetize.io/app/hzmvauxece1anb9b0ewzhquj58?device=iphone11promax&scale=75&orientation=portrait&osVersion=13.3
-  description: Ascent is a mobile application written with React Native and Sequelize/Express. This app allows users to create climbing areas and routes around the world as well as show nearby climbing areas and routes around the user.
-  status: in progress
-  tags:
-    - JavaScript
-    - React Native
-    - SequelizeORM
-    - Express
-  icon: website
+# - name: Ascent
+#   url: https://github.com/ctran01/Ascent
+#   url2: https://appetize.io/app/hzmvauxece1anb9b0ewzhquj58?device=iphone11promax&scale=75&orientation=portrait&osVersion=13.3
+#   description: Ascent is a mobile application written with React Native and Sequelize/Express. This app allows users to create climbing areas and routes around the world as well as show nearby climbing areas and routes around the user.
+#   status: in progress
+#   tags:
+#     - JavaScript
+#     - React Native
+#     - SequelizeORM
+#     - Express
+#     - PostgreSQL
+#   icon: website
+#   image: images/AscentHomeLarge.png
 
-- name: Spoofify
-  url: https://github.com/ctran01/spotify-clone
-  url2: https://spotify-clone-aa-react.herokuapp.com/
-  description: Spoofify is a spotify clone written in ReactJS and flask-SQLAlchemy that I created with a group. It allows users to search from a library of artists and play music as well as create playlists.
-  status: live
-  tags:
-    - JavaScript
-    - React
-    - Flask/SQLAlchemy
-    - Python
-  icon: website
-  image: images/SpoofifyImage.jpg
+# - name: Spoofify
+#   url: https://github.com/ctran01/spotify-clone
+#   url2: https://spotify-clone-aa-react.herokuapp.com/
+#   description: Spoofify is a spotify clone written in ReactJS and flask-SQLAlchemy that I created with a group. It allows users to search from a library of artists and play music as well as create playlists.
+#   status: live
+#   tags:
+#     - JavaScript
+#     - React
+#     - Flask/SQLAlchemy
+#     - Python
+#     - PostgreSQL
+#   icon: website
+#   image: images/SpoofifyImage.jpg
 
-- name: WatchTube
-  url: https://github.com/ctran01/YouWatch
-  url2: https://watchtube-app.herokuapp.com/
-  description: WatchTube is a YouTube clone written in ReactJS and Express. It allows users to search and play videos, add them to playlists, and comment on videos.
-  status: in progress
-  tags:
-    - JavaScript
-    - React
-    - SequelizeORM
-    - Express
-  icon: website
+# - name: WatchTube
+#   url: https://github.com/ctran01/YouWatch
+#   url2: https://watchtube-app.herokuapp.com/
+#   description: WatchTube is a YouTube clone written in ReactJS and Express. It allows users to search and play videos, add them to playlists, and comment on videos.
+#   status: in progress
+#   tags:
+#     - JavaScript
+#     - React
+#     - SequelizeORM
+#     - Express
+#     - PostgreSQL
+#   icon: website
   
