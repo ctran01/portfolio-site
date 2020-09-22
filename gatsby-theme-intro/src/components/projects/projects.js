@@ -42,10 +42,10 @@ const Projects = ({ projects }) => {
           </a>
         )}
         <span>&nbsp;&nbsp;</span>
-        {'https://appetize.io/app/knq1d65tu1hyxwu8nxkerru3hc?device=iphone11promax&scale=75&orientation=portrait&osVersion=13.3' && (
+        {'https://appetize.io/app/yjmh15xyn699qbtz6k3d4yg61m?device=iphone11promax&scale=75&orientation=portrait&osVersion=13.3' && (
           <a
             className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
-            href={'https://appetize.io/app/knq1d65tu1hyxwu8nxkerru3hc?device=iphone11promax&scale=75&orientation=portrait&osVersion=13.3'}
+            href={'https://appetize.io/app/yjmh15xyn699qbtz6k3d4yg61m?device=iphone11promax&scale=75&orientation=portrait&osVersion=13.3'}
             rel="noreferrer noopener"
             target="_blank"
           >
