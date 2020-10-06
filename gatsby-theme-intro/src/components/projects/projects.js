@@ -71,10 +71,10 @@ const Projects = ({ projects }) => {
       )}
       <div className="lg:flex-1">
         <h4 className="font-bold">{'Spoofify'}</h4>
-        {'https://github.com/ctran01/spotify-clone' && (
+        {'https://github.com/ctran01/Spoofify' && (
           <a
             className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
-            href={'https://github.com/ctran01/spotify-clone'}
+            href={'https://github.com/ctran01/Spoofify'}
             rel="noreferrer noopener"
             target="_blank"
           >
