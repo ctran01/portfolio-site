@@ -5,7 +5,7 @@ import ProjectIcon from "./project-icon"
 import ProjectStatus from "./project-status"
 import ProjectTags from "./project-tags"
 import ProjectImg from "./project-image"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
 const Projects = ({ projects }) => {
   const ascent = 'images/AscentHomeLarge.png'
