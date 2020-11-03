@@ -10,6 +10,7 @@ import ProjectImg from "./project-image"
 const Projects = ({ projects }) => {
   const ascent = "images/AscentHomeLarge.png"
   const spoofify = "images/SpoofifyImage.jpg"
+  const watchtube = "images/watchtube2.png"
 
   return (
     <>
@@ -58,7 +59,7 @@ const Projects = ({ projects }) => {
             }
           </p>
           <ul className="pr-2">
-            {"live" && <ProjectStatus status={"live"} />}
+            {"Live" && <ProjectStatus status={"Live"} />}
             {[
               "JavaScript",
               "React Native",
@@ -124,7 +125,7 @@ const Projects = ({ projects }) => {
             }
           </p>
           <ul className="pr-2">
-            {"live" && <ProjectStatus status={"live"} />}
+            {"Live" && <ProjectStatus status={"Live"} />}
             {[
               "JavaScript",
               "React",
@@ -148,25 +149,85 @@ const Projects = ({ projects }) => {
         </div>
       </div>
 
-      {/* WatchTube  */}
+      {/* Methodize  */}
       <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
-        {/* {spoofify && (
-        <div className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0" style={{width:400}}>
-          <ProjectImg alt="Watchtube" filename="SpoofifyImage.jpg" style={{height:350}} />
-        </div>
-      )} */}
+        {/* {watchtube && (
+          <div
+            className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0"
+            style={{ width: 400 }}
+          >
+            <ProjectImg
+              alt="Watchtube"
+              filename="watchtube2.png"
+              style={{ height: 350 }}
+            />
+          </div>
+        )} */}
         <div className="lg:flex-1">
-          <h4 className="font-bold">{"WatchTube"}</h4>
-          {/* {'https://github.com/ctran01/YouWatch' && (
+          <h4 className="font-bold">{"Methodize"}</h4>
+          {"https://github.com/ctran01/Methodize" && (
+            <a
+              className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
+              href={"https://github.com/ctran01/Methodize"}
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              github
+            </a>
+          )}
+          {/* <span>&nbsp;&nbsp;</span>
+        {'https://watchtube-app.herokuapp.com/' && (
           <a
             className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
-            href={'https://github.com/ctran01/YouWatch'}
+            href={'https://watchtube-app.herokuapp.com/'}
             rel="noreferrer noopener"
             target="_blank"
           >
-            github
+             live
           </a>
         )} */}
+          <p className="w-full py-4 whitespace-pre-line">
+            {"Methodize is a project management tool"}
+          </p>
+          <ul className="pr-2">
+            {"In Progress" && <ProjectStatus status={"In Progress"} />}
+            {["JavaScript", "React", "Express", "PostgreSQL"] && (
+              <ProjectTags
+                tags={["JavaScript", "React", "Express", "PostgreSQL"]}
+              />
+            )}
+          </ul>
+
+          {"website" && <ProjectIcon icon={"website"} />}
+        </div>
+      </div>
+
+      {/* WatchTube  */}
+      <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
+        {watchtube && (
+          <div
+            className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0"
+            style={{ width: 450 }}
+          >
+            <ProjectImg
+              alt="Watchtube"
+              filename="watchtube2.png"
+              style={{ height: 350 }}
+            />
+          </div>
+        )}
+        <div className="lg:flex-1">
+          <h4 className="font-bold">{"WatchTube"}</h4>
+          {"https://github.com/ctran01/WatchTube" && (
+            <a
+              className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
+              href={"https://github.com/ctran01/Watchtube"}
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              github
+            </a>
+          )}
           {/* <span>&nbsp;&nbsp;</span>
         {'https://watchtube-app.herokuapp.com/' && (
           <a
@@ -184,7 +245,7 @@ const Projects = ({ projects }) => {
             }
           </p>
           <ul className="pr-2">
-            {"in progress" && <ProjectStatus status={"in progress"} />}
+            {"On Pause" && <ProjectStatus status={"On Pause"} />}
             {[
               "JavaScript",
               "React",
