@@ -34,7 +34,7 @@ const SEO = props => {
       meta={[
         {
           name: `description`,
-          content: description,
+          content: "test2",
         },
         {
           name: `image`,
@@ -42,7 +42,7 @@ const SEO = props => {
           content: { image },
         },
         {
-          name: `authoer`,
+          name: `author`,
           content: "Chris Tran",
         },
         {
@@ -51,7 +51,7 @@ const SEO = props => {
         },
         {
           property: `og:description`,
-          content: description,
+          content: "test",
         },
         {
           property: `og:type`,
