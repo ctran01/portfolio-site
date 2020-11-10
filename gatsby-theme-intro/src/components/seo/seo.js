@@ -13,6 +13,8 @@ const SEO = props => {
             description
             locale
             title
+            author
+            image
           }
         }
       }
@@ -23,6 +25,8 @@ const SEO = props => {
     description = site.siteMetadata.description,
     meta = [],
     title = site.siteMetadata.title,
+    author = site.siteMetadata.author,
+    image = site.siteMetadata.image,
   } = props
 
   return (
@@ -34,16 +38,16 @@ const SEO = props => {
       meta={[
         {
           name: `description`,
-          content: "test2",
+          content: description,
         },
         {
           name: `image`,
           property: "og:image",
-          content: { image },
+          content: image,
         },
         {
           name: `author`,
-          content: "Chris Tran",
+          content: author,
         },
         {
           property: `og:title`,
@@ -51,7 +55,7 @@ const SEO = props => {
         },
         {
           property: `og:description`,
-          content: "test",
+          content: description,
         },
         {
           property: `og:type`,

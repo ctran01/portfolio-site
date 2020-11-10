@@ -44,8 +44,7 @@ export const query = graphql`
   query {
     site {
       siteMetadata {
-        showThemeLogo,
-        author:"Chris Tran"
+        showThemeLogo
       }
     }
     profile: profileYaml {
