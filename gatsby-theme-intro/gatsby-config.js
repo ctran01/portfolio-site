@@ -4,7 +4,7 @@
 //   showThemeLogo = true,
 //   theme = "dark-blue",
 // }) => {
-import image from "./src/themes/chris.png"
+
 module.exports = {
   siteMetadata: {
     description: "Portfolio Site for Chris Tran",
@@ -12,7 +12,7 @@ module.exports = {
     showThemeLogo: false,
     title: "Chris Tran | Software Engineer",
     author: "Chris Tran",
-    image: image,
+    image: "./src/themes/chris.png",
   },
   plugins: [
     {
