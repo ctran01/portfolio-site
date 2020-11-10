@@ -2,7 +2,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { Helmet } from "react-helmet"
-import image from "../../themes/chris.png"
+import metaImage from "../../themes/chris.png"
 
 const SEO = props => {
   const { site } = useStaticQuery(
@@ -43,7 +43,7 @@ const SEO = props => {
         {
           name: `image`,
           property: "og:image",
-          content: image,
+          content: metaImage,
         },
         {
           name: `author`,
