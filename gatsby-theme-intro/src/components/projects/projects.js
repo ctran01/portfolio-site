@@ -165,10 +165,10 @@ const Projects = ({ projects }) => {
         )} */}
         <div className="lg:flex-1">
           <h4 className="font-bold">{"Methodize"}</h4>
-          {"https://github.com/ctran01/Methodize" && (
+          {"https://github.com/ctran01/Methodic" && (
             <a
               className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
-              href={"https://github.com/ctran01/Methodize"}
+              href={"https://github.com/ctran01/Methodic"}
               rel="noreferrer noopener"
               target="_blank"
             >
