@@ -12,10 +12,7 @@ const Footer = ({ name, showThemeLogo = true }) => (
         All rights reserved.
       </div>
       <div className="w-1/3 text-right">
-        <div className="text-back-light">
-
-          Template Designed & Built by Wojciech Kocjan
-        </div>
+        <div className="text-back-light"></div>
         {showThemeLogo && (
           <a
             aria-label="Intro theme"
