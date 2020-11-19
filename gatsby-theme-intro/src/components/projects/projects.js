@@ -164,7 +164,7 @@ const Projects = ({ projects }) => {
           </div>
         )} */}
         <div className="lg:flex-1">
-          <h4 className="font-bold">{"Methodize"}</h4>
+          <h4 className="font-bold">{"Methodic"}</h4>
           {"https://github.com/ctran01/Methodic" && (
             <a
               className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
@@ -175,17 +175,17 @@ const Projects = ({ projects }) => {
               github
             </a>
           )}
-          {/* <span>&nbsp;&nbsp;</span>
-        {'https://watchtube-app.herokuapp.com/' && (
-          <a
-            className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
-            href={'https://watchtube-app.herokuapp.com/'}
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-             live
-          </a>
-        )} */}
+          <span>&nbsp;&nbsp;</span>
+          {"https://methodic-app.herokuapp.com/" && (
+            <a
+              className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
+              href={"https://methodic-app.herokuapp.com/"}
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              live
+            </a>
+          )}
           <p className="w-full py-4 whitespace-pre-line">
             {"Methodize is a project management tool"}
           </p>
