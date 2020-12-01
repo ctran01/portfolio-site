@@ -22,7 +22,7 @@ const ContactForm = ({ email, budget }) => {
         method="post"
       >
         <div className="flex flex-wrap w-full">
-          <div className="w-full lg:w-1/3 py-px lg:px-px">
+          <div className="w-full lg:w-1/2 py-px lg:px-px">
             <input
               aria-label="Name"
               autoComplete="name"
@@ -33,7 +33,7 @@ const ContactForm = ({ email, budget }) => {
               type="text"
             />
           </div>
-          <div className="w-full lg:w-1/3 py-px lg:px-px">
+          <div className="w-full lg:w-1/2 py-px lg:px-px">
             <input
               aria-label="E-mail"
               autoComplete="email"
@@ -44,7 +44,7 @@ const ContactForm = ({ email, budget }) => {
               type="email"
             />
           </div>
-          <div className="w-full lg:w-1/3 py-px lg:px-px">
+          {/* <div className="w-full lg:w-1/3 py-px lg:px-px">
             <div className="form-control bg-back-light">
               <label className="cursor-pointer select-none">
                 <input
@@ -61,7 +61,7 @@ const ContactForm = ({ email, budget }) => {
                 <span className="text-front opacity-50 uppercase">Inquiry</span>
               </label>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div
