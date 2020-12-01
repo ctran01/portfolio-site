@@ -24,7 +24,7 @@ const MainContent = ({ history, projects, profile }) => {
       {profile.about && <About about={profile.about} />}
       <Projects projects={projects} />
       {/* <WorkHistory history={history} /> */}
-      <ContactForm email={profile.email} budget={profile.budget} />
+      {/* <ContactForm email={profile.email} budget={profile.budget} /> */}
     </main>
   )
 }
