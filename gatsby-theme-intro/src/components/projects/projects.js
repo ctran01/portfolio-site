@@ -97,13 +97,13 @@ const Projects = ({ projects }) => {
           >
             <ProjectImg
               alt="Methodize"
-              filename="Methodize.jpg"
+              filename="Methodize.png"
               style={{ height: 350 }}
             />
           </div>
         )}
         <div className="lg:flex-1">
-          <h4 className="font-bold">{"Methodic"}</h4>
+          <h4 className="font-bold">{"Methodize"}</h4>
           {"https://github.com/ctran01/Methodic" && (
             <a
               className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
