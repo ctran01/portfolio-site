@@ -11,7 +11,7 @@ const Projects = ({ projects }) => {
   const ascent = "images/AscentHomeLarge.png"
   const spoofify = "images/SpoofifyImage.jpg"
   const watchtube = "images/watchtube2.png"
-  const methodize = "images/Methodize.jpg"
+  const methodize = "images/Methodize.png"
 
   return (
     <>
