@@ -52,7 +52,7 @@ const Projects = ({ projects }) => {
           {"https://methodize-app.com/" && (
             <a
               className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
-              href={"https://methodize-app.com/"}
+              href={"https://www.methodize-app.com/"}
               rel="noreferrer noopener"
               target="_blank"
             >
